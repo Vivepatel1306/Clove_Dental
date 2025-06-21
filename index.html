@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="HeaderStyle.css">
+    <link rel="stylesheet" href="HeroSection.css">
+    <link rel="stylesheet" href="ScrollingSection.css">
+    <link rel="stylesheet" href="ToothTreatment.css">
+    <link rel="stylesheet" href="RealSmiles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <img src="./utils/clove logo.png" alt="Not responding">
+        <span>
+            <span id="BookAppointment">
+                <img src="./utils/Book an appointment.png" alt="">
+                <span>Book Appointment</span>
+            </span>
+            <span id="CallBack">
+                <img src="./utils/Get a Call Back.png" alt="">
+                <span>99933-22484</span>
+            </span>
+        </span>
+    </header>
+
+    <section class="HeroSection">
+        <div> <img src="./utils/bgimage.jpg" alt=""></div>
+
+        <div class="form-container">
+            <h2>Get Expert Dental Guidance in Delhi</h2>
+            <p>Book your free consultation today and take the first step towards healthy, beautiful teeth.</p>
+
+            <form id="consultationForm">
+                <input type="text" name="name" placeholder="Name" required />
+                <input type="tel" name="mobile" placeholder="Mobile Number" required pattern="[0-9]{10}" />
+
+                <div class="captcha-wrapper">
+                    <input type="text" name="captcha" placeholder="Captcha" required />
+                    <div class="captcha-box">1514</div>
+                </div>
+
+                <label class="checkbox-wrapper">
+                    <input type="checkbox" id="consent" />
+                    <span>
+                        I agree to CLOVE Dental’s <a href="#">Terms</a> and <a href="#">Privacy Policy</a> and consent
+                        to contact via phone, email, or SMS.
+                    </span>
+                </label>
+
+                <button type="submit">Book a Free Consultation</button>
+            </form>
+        </div>
+
+    </section>
+
+    <!-- scrolling content -->
+    <section class="scroll-container" id="auto-scroll">
+        <div class="item">
+            <img src="./utils/Clinics.png" alt="">
+            <span class="numbers">600+</span>
+            <span>Clinics</span>
+        </div>
+        <div class="item">
+            <img src="./utils/dentists.png" alt="">
+            <span class="numbers">1300+</span>
+            <span>Dentists</span>
+        </div>
+        <div class="item">
+            <img src="./utils/Happy Patients.png" alt="">
+            <span class="numbers">30L+</span>
+            <span>Happy Patients</span>
+        </div>
+        <div class="item">
+            <img src="./utils/ortho.png" alt="">
+            <span class="numbers">35K+</span>
+            <span>Ortho Cases</span>
+        </div>
+        <div class="item">
+            <img src="./utils/Implant.png" alt="">
+            <span class="numbers">55K+</span>
+            <span>Implants Placed</span>
+        </div>
+        <div class="item">
+            <img src="./utils/Clinics.png" alt="">
+            <span class="numbers">600+</span>
+            <span>Clinics</span>
+        </div>
+        <div class="item">
+            <img src="./utils/dentists.png" alt="">
+            <span class="numbers">1300+</span>
+            <span>Dentists</span>
+        </div>
+        <div class="item">
+            <img src="./utils/Happy Patients.png" alt="">
+            <span class="numbers">30L+</span>
+            <span>Happy Patients</span>
+        </div>
+        <div class="item">
+            <img src="./utils/ortho.png" alt="">
+            <span class="numbers">35K+</span>
+            <span>Ortho Cases</span>
+        </div>
+        <div class="item">
+            <img src="./utils/Implant.png" alt="">
+            <span class="numbers">55K+</span>
+            <span>Implants Placed</span>
+        </div>
+
+
+    </section>
+
+    <!-- Tooth_treatment_types -->
+
+    <section class="root-canal-section">
+        <h3>Types of Root Canal Treatments</h3>
+        <p>In a root canal, the dentist removes infected pulp, cleans the tooth, and fills it with special material</p>
+
+        <div class="tooth-treatment-types">
+            <!-- Card 1 -->
+            <div class="treatment-card">
+                <img src="./utils/rootCanal.png" alt="Root Canal" />
+                <div class="treatment-content">
+                    <h4>Root Canal Treatment</h4>
+                    <p>Ideal for infected or damaged tooth</p>
+                    <h5>Types of RCT</h5>
+                    <ul>
+                        <li>Root Canal Treatment</li>
+                        <li>Split RCT</li>
+                        <li>Split RCT with rubber dam</li>
+                        <li>Split RCT with laser</li>
+                    </ul>
+                    <p class="price-label">Starting Price</p>
+                    <h4 class="price">₹ 19,999</h4>
+                    <button class="FreeConsultant">Get Free Consultation</button>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="treatment-card">
+                <img src="./utils/ReRootCanal.png" alt="Re-Root Canal" />
+                <div class="treatment-content">
+                    <h4>Re-Root Canal Treatment</h4>
+                    <p>Ideal issues that persist or recur after an initial root canal treatment</p>
+                    <h5>Types of RCT</h5>
+                    <ul>
+                        <li>Re-RCT with rubber dam</li>
+                        <li>Re-RCT laser specialist</li>
+                        <li>e-RCT with retrieval of old RCT filling</li>
+                    </ul>
+                    <p class="price-label">Starting Price</p>
+                    <h4 class="price">₹ 19,999</h4>
+                    <button class="FreeConsultant">Get Free Consultation</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Real Smiles, Real Transformations -->
+<section class="testimonial-section">
+  <h3>Real Smiles, Real Transformations</h3>
+  <p>See the life-changing results our dental implant patients enjoy</p>
+
+  <div class="happy-customer" id="scrollContainer">
+    <div class="customer-card">
+      <img src="./utils/arjunMehta_Mumbai.png" alt="Arjun Mehta" />
+      <h6>Arjun Mehta</h6>
+      <p>Mumbai</p>
+    </div>
+    <div class="customer-card">
+      <img src="./utils/KavitaSharma_Banglore.png" alt="Kavita Sharma" />
+      <h6>Kavita Sharma</h6>
+      <p>Bangalore</p>
+    </div>
+    <div class="customer-card">
+      <img src="./utils/NehaJoshi_Delhi.png" alt="Neha Joshi" />
+      <h6>Neha Joshi</h6>
+      <p>Delhi</p>
+    </div>
+    <div class="customer-card">
+      <img src="./utils/ViramDesai_Chennai.png" alt="Viram Desai" />
+      <h6>Viram Desai</h6>
+      <p>Chennai</p>
+    </div>
+    <div class="customer-card">
+      <img src="./utils/arjunMehta_Mumbai.png" alt="Arjun Mehta" />
+      <h6>Arjun Mehta</h6>
+      <p>Mumbai</p>
+    </div>
+    <div class="customer-card">
+      <img src="./utils/KavitaSharma_Banglore.png" alt="Kavita Sharma" />
+      <h6>Kavita Sharma</h6>
+      <p>Bangalore</p>
+    </div>
+    <div class="customer-card">
+      <img src="./utils/NehaJoshi_Delhi.png" alt="Neha Joshi" />
+      <h6>Neha Joshi</h6>
+      <p>Delhi</p>
+    </div>
+    <div class="customer-card">
+      <img src="./utils/ViramDesai_Chennai.png" alt="Viram Desai" />
+      <h6>Viram Desai</h6>
+      <p>Chennai</p>
+    </div>
+    
+  </div>
+</section>
+
+
+
+
+
+
+    <script src="HeroSectionScript.js"></script>
+    <script src="ScrollingSection.js"></script>
+    <script src="RealSmiles.js"></script>
+</body>
+
+</html>
