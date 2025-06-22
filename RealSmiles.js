@@ -13,7 +13,7 @@
       ) {
         scrollContainer.scrollTo({ left: 0, behavior: 'smooth' });
       }
-    }, 2000); // speed of scroll
+    }, 1500); // speed of scroll
   }
 
   function stopAutoScroll() {

@@ -1,0 +1,89 @@
+.WhyToChoose {
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.WhyToChoose h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.WhyToChoose > p {
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.WhyToChoose > .content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.accordion-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.6rem;
+  cursor: pointer;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.accordion-item h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  flex: 1;
+}
+
+.accordion-icon {
+  color: #f37021;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.accordion-content {
+  display: none;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.accordion-item.open .accordion-content {
+  display: block;
+}
+
+.WhyToChoose img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Responsive: Adjust layout on small screens without shrinking text/images */
+@media (max-width: 768px) {
+  .WhyToChoose > .content-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .WhyToChoose img {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+}
